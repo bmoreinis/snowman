@@ -1,0 +1,167 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding-bottom:20px!Important;
+}
+#endScreen {
+  position:absolute;
+  top:0;
+  left:0;
+  width:312px;
+  height:700px;
+   background-image: url("images/youlose.jpg");
+   background-repeat: no-repeat;
+   background-size:contain;
+   background-color:transparent;
+} 
+
+#endScreen p {
+  position:absolute;
+  padding:10px;
+  left:60px;
+  top:220px;
+  background-color:#000;
+  color:#fff;
+  font-size:18pt;
+  text-align:center;
+}
+#keyboard {
+  width: 70%;
+  margin:10px auto;
+}
+
+#guesses {
+  border:1px solid black;
+  width:304px;
+}
+
+.yellowshift {
+   filter: hue-rotate(180deg);
+}
+
+.redshift {
+  filter: hue-rotate(120deg)
+}
+
+#snowman {
+   background-image: url("images/snow.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-color:#C6D1D3;
+  height:535px;
+   width:304px;
+  position:relative;
+}
+#guesses {
+ text-align:center;
+}
+
+/*coloring */
+.circle {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  position:absolute;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
+
+/* color customizations */
+.circle {
+  background: radial-gradient(circle at 100px 100px, #fff, #ccc);
+  border:1px solid #000;
+}
+.eye {
+  background: black;
+  border-radius: 50%;
+  width:10px;
+  height:10px;
+  }
+
+#nose {
+  background-image:url("images/carrot.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  position:absolute;
+}
+
+/* size customizations */
+
+#head {
+  width:100px;
+  height:100px;
+  background: radial-gradient(circle at 30px 30px, #fff, #ccc);
+}
+
+#thorax {
+  width:200px;
+  height:200px;
+  background: radial-gradient(circle at 60px 60px, #fff, #ccc);
+}
+
+#nose {
+  width:50px;
+  height:25px;
+}
+
+/* position customizations */
+
+.circle {
+  position:absolute;
+}
+
+#abdomen {
+  bottom:0px;
+  z-index:1;
+}
+
+#thorax {
+  bottom:250px;
+  left:50px;
+  z-index:2;
+}
+
+#head {
+  bottom:430px;
+  left:100px;
+  z-index:3;
+}
+
+.eye {
+  top:30px;
+}
+
+.eye#left {
+  margin-left:60px;
+}
+
+.eye#right {
+  margin-left:30px;
+}
+
+#nose {
+  bottom:25px;
+  right:45px;
+}
+#lose {
+  background-image: url("images/youlose.jpg");
+  background-size:contain;
+  width:608px;
+  height:600px;
+  top:0;
+  left:0;
+  position:absolute;
+  z-index:100;
+  background-color:white;
+  background-repeat:no-repeat;
+}
+
+#entryBox {
+  border:1px solid black;
+  width:20px;
+  height:20px;
+}
